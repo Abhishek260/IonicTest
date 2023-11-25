@@ -1,0 +1,68 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>test</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-button fill = "outline" shape="round" color="primary">Click Me</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<div style="margin: 10px;">
+  <ion-toolbar style="margin-bottom: 10px;">
+    <ion-buttons slot="start">
+      <ion-button fill="solid">Start</ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button fill="outline">End</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-toolbar style="margin-bottom: 10px;">
+    <ion-buttons slot="secondary">
+      <ion-button>Sec Btn</ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button shape="round" color="danger" fill="solid">Primary btn</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-toolbar style="margin-bottom: 10px;">
+    <ion-button expand="block" style="margin-bottom: 10px;">Expand block <blockquote></blockquote></ion-button>
+    <ion-button expand="full" style="margin-bottom: 10px;">Expand full </ion-button>
+  </ion-toolbar>
+
+  <ion-toolbar style="margin-bottom: 10px;">
+
+    <ion-button>
+      <ion-icon slot="start" name="person" size="large" color="dark"></ion-icon>
+      Left Icon
+    </ion-button>
+
+    <ion-button>
+      <ion-icon slot="end" name="star" size="default"></ion-icon>
+    Right Icon
+    </ion-button>
+    
+    <ion-button>
+      <ion-icon slot="icon-only" name="fish" size="small"></ion-icon>
+    </ion-button>
+
+  </ion-toolbar>
+
+  <ion-toolbar style="margin-bottom: 10px;">
+
+  </ion-toolbar>
+  
+</div>
+
+</ion-content>
+
+
+<ion-footer>
+  <div style="text-align: center;">
+    <h2>Footer</h2>
+  </div>
+</ion-footer>

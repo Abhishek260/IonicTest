@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="margin: auto; text-align: center; color: yellow;">Home</ion-title>
+    <ion-buttons slot="start">
+      <ion-button>Click Me</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-toolbar>
+    <ion-buttons slot="primary">
+      <ion-button> Start </ion-button>
+    </ion-buttons>
+    <ion-title>Start / End Buttons</ion-title>
+    <ion-buttons slot="end">
+      <ion-button> End </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <!-- <ion-button id="open-action-sheet">Open</ion-button> -->
+<!-- <ion-action-sheet trigger="open-action-sheet" header="Actions" [buttons]="actionSheetButtons"></ion-action-sheet>s -->
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <div class="buttons" style="color: aqua; margin: auto;">
+      <ion-row>
+        <ion-button id="open-action-sheet" (click)="naviTest()">Test</ion-button>
+        <ion-button id="open-action-sheet"(click)="naviToolbar()">Toolbars</ion-button>
+        <ion-button id="open-action-sheet">Profile</ion-button>
+      </ion-row>
+    </div>
+  </ion-toolbar>
+</ion-footer>
