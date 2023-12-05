@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary" style="margin-bottom: 10px;">
+    <ion-buttons slot="start">
+    </ion-buttons>
+    <ion-title class="ion-text-uppercase" style="text-align: center;">Profile</ion-title>
+    <ion-buttons slot="end"    >
+      <button ion-button fill="clear" style="background: transparent;color: rgb(135, 90, 160);" (click)="close()" >
+        <ion-icon class="font-bold" style="font-size: 30px;" name="close-circle-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-accordion-group>
+    <ion-accordion>
+      <ion-item slot="header">
+        <ion-label>People</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+        <ion-item>
+          <ion-label>Max</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Mike</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Kim</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+  </ion-accordion-group>
+
+</ion-content>
