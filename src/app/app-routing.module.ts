@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'toolbars',
     loadChildren: () => import('./pages/ui/toolbars/toolbars.module').then( m => m.ToolbarsPageModule)
+  },  {
+    path: 'profile-detail',
+    loadChildren: () => import('./models/profile-detail/profile-detail.module').then( m => m.ProfileDetailPageModule)
   },
+
   
 ];
 @NgModule({
